@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+header {
+    background-color: #f7f1f5;
+    width: 100vw;
+    height: 20vh;
+    padding: 24px 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand {
+    font-size: 24px;
+}
+.brand:hover {
+    text-decoration: none;
+}
+nav ul {
+    font-size: 14px;
+    width: 40vw;
+    display: flex;
+    justify-content: space-evenly;
+    /* justify content bisa works kalo kita define width nya dahulu */
+    list-style-type: none;
+}
+header button {
+    font-size: 16px;
+    width: 9em;
+    margin: 0;
+    padding: 1em 1em;
+    background-color: transparent;
+}
+.sign-in {
+    border: none;
+}
+.sign-in:hover {
+    color: #f53855;
+    cursor: pointer;
+}
+.sign-up {
+    border: 1px solid #f53855;
+    border-radius: 2em;
+    color: #f53855;
+}
+.sign-up:hover {
+    background-color: #f53855;
+    color: white;
+    cursor: pointer;
+}
+.main-feature {
+    background-color: #f7f1f5;
+    width: 100vw;
+    height: 75vh;
+    padding: 5vw 5vw 10vw 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-feature p {
+    text-align: center;
+}
+.main-feature button {
+    font-size: 16px;
+    font-weight: 700;
+    width: 12em;
+    padding: 1em;
+    margin-top: 2em;
+    color: white;
+    background-color: #f53855;
+    border: none;
+    border-radius: 1em;
+}
+.main-feature button:hover {
+    background-color: #9b2536;
+    cursor: pointer;
+}
+.news-blog {
+    width: 100vw;
+    padding: 5vw 5vw 10vw 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.news-blog p {
+    text-align: center;
+}
+.cards-container {
+    width: 70vw;
+    margin-top: 5vw;
+    border-bottom: 1px solid rgb(202, 202, 206);
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    /* align-content: space-evenly; */
+    /* btw beda justify-content dan align-content, yaitu align-item digunakan kalo ada wrap */
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card {
+    width: 30vw;
+    margin: 3vw 0;
+    border: 1px solid rgb(200, 200, 206);
+    border-radius: 1em;
+}
+.card-div-gambar {
+    background-color: rgb(149, 182, 212);
+    height: 15vw;
+    border-radius: 1em 1em 0 0;
+}
+.card-div-parag {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.card p {
+    text-align: start;
+}
+.contact-us {
+    width: 100vw;
+    padding: 0 5vw 10vw 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-us p {
+    text-align: center;
+}
+.contact-cont {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact-cont div {
+    width: 30vw;
+    padding: 0 3vw;
+    display: flex;
+    flex-direction: column;
+}
+.contact-cont div h3 {
+    margin-bottom: 0;
+}
+.contact-cont div p {
+    text-align: start;
+}
+footer {
+    background-color: #f7f1f5;
+    width: 100vw;
+    padding: 10vw 5vw 10vw 5vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer div {
+    width: 30vw;
+    padding: 0 3vw;
+    display: flex;
+    flex-direction: column;
+}
